@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+form > input{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner > form{
+  display: inline;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 200px;
+}
+.inner > form > button{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  display:inline-block;
+  gap: 10px;
+}
+.inner > form > button:hover{
+  background-color: brown;
+}
+.inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
